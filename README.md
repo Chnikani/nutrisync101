@@ -1,22 +1,11 @@
 # prismix.new
 
-[![prismix.new: AI-Powered Full-Stack Web Development in the Browser](./public/social_preview_index.jpg)](https://prismix.new)
+Welcome to prismix.new, an AI-powered development environment. This project is a decommercialized and rebranded fork of `bolt.diy`.
 
-Welcome to prismix.new, the official open source version of prismix.new, which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, Groq, Cohere, Together, Perplexity, Moonshot (Kimi), Hyperbolic, GitHub Models, Amazon Bedrock, and OpenAI-like providers - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
-
------
-Check the [prismix.new Docs](https://Mindinu-labs.github.io/prismix.new/) for more official installation instructions and additional information.
-
------
-Also [this pinned post in our community](https://thinktank.ottomator.ai/t/videos-tutorial-helpful-content/3243) has a bunch of incredible resources for running and deploying prismix.new yourself!
-
-We have also launched an experimental agent called the "prismix.new Expert" that can answer common questions about prismix.new. Find it here on the [oTTomator Live Agent Studio](https://studio.ottomator.ai/).
-
-prismix.new was originally started by [Cole Medin](https://www.youtube.com/@ColeMedin) but has quickly grown into a massive community effort to build the BEST open source AI coding assistant!
+prismix.new allows you to choose the LLM that you use for each prompt. Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, Groq, Cohere, Together, Perplexity, Moonshot (Kimi), Hyperbolic, GitHub Models, Amazon Bedrock, and OpenAI-like providers - and it is easily extended to use any other model supported by the Vercel AI SDK.
 
 ## Table of Contents
 
-- [Join the Community](#join-the-community)
 - [Recent Major Additions](#recent-major-additions)
 - [Features](#features)
 - [Setup](#setup)
@@ -26,20 +15,7 @@ prismix.new was originally started by [Cole Medin](https://www.youtube.com/@Cole
 - [Setup Using Git (For Developers only)](#setup-using-git-for-developers-only)
 - [Available Scripts](#available-scripts)
 - [Contributing](#contributing)
-- [Roadmap](#roadmap)
 - [FAQ](#faq)
-
-## Join the community
-
-[Join the prismix.new community here, in the oTTomator Think Tank!](https://thinktank.ottomator.ai)
-
-## Project management
-
-prismix.new is a community effort! Still, the core team of contributors aims at organizing the project in way that allows
-you to understand where the current areas of focus are.
-
-If you want to know what we are working on, what we are planning to work on, or if you want to contribute to the
-project, please check the [project management guide](./PROJECT.md) to get started easily.
 
 ## Recent Major Additions
 
@@ -96,12 +72,12 @@ Let's get you up and running with the stable version of prismix.new!
 
 ## Quick Installation
 
-[![Download Latest Release](https://img.shields.io/github/v/release/Mindinu-labs/prismix.new?label=Download%20Bolt&sort=semver)](https://github.com/Mindinu-labs/prismix.new/releases/latest) ← Click here to go to the latest release version!
+[![Download Latest Release](httpshttps://img.shields.io/github/v/release/Mindinu/prismix.new?label=Download%20prismix.new&sort=semver)](https://github.com/Mindinu/prismix.new/releases/latest) ← Click here to go to the latest release version!
 
 - Download the binary for your platform (available for Windows, macOS, and Linux)
 - **Note**: For macOS, if you get the error "This app is damaged", run:
   ```bash
-  xattr -cr /path/to/Bolt.app
+  xattr -cr /path/to/prismix.new.app
   ```
 
 ## Manual installation
@@ -169,7 +145,7 @@ This option requires some familiarity with Docker but provides a more isolated e
    npm run dockerbuild
 
    # OR using direct Docker command:
-   docker build . --target bolt-ai-development
+   docker build . --target prismix-new-development
    ```
 
 2. **Run the Container**:
@@ -349,7 +325,7 @@ This method is recommended for developers who want to:
 1. **Clone the Repository**:
 
    ```bash
-   git clone -b stable https://github.com/Mindinu-labs/prismix.new.git
+   git clone -b stable https://github.com/Mindinu/prismix.new.git
    ```
 
 2. **Navigate to Project Directory**:
@@ -472,12 +448,6 @@ Remember to always commit your local changes or stash them before pulling update
 ## Contributing
 
 We welcome contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
-
----
-
-## Roadmap
-
-Explore upcoming features and priorities on our [Roadmap](https://roadmap.sh/r/ottodev-roadmap-2ovzo).
 
 ---
 
