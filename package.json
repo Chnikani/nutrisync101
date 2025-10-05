@@ -7,8 +7,8 @@
   "type": "module",
   "version": "1.0.0",
   "author": {
-    "name": "bolt.diy team",
-    "email": "maintainers@bolt.diy"
+    "name": "prismix.new team",
+    "email": "maintainers@prismix.new"
   },
   "scripts": {
     "deploy": "npm run build && wrangler pages deploy",

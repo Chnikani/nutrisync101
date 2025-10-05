@@ -1,29 +1,29 @@
-# Code Owners for bolt.diy
+# Code Owners for prismix.new
 # These users/teams will automatically be requested for review when files are modified
 
 # Global ownership - repository maintainers
-* @stackblitz-labs/bolt-maintainers
+* @Mindinu-labs/bolt-maintainers
 
 # GitHub workflows and CI/CD configuration - require maintainer review
-/.github/ @stackblitz-labs/bolt-maintainers
-/package.json @stackblitz-labs/bolt-maintainers
-/pnpm-lock.yaml @stackblitz-labs/bolt-maintainers
+/.github/ @Mindinu-labs/bolt-maintainers
+/package.json @Mindinu-labs/bolt-maintainers
+/pnpm-lock.yaml @Mindinu-labs/bolt-maintainers
 
 # Security-sensitive configurations - require maintainer review
-/.env* @stackblitz-labs/bolt-maintainers
-/wrangler.toml @stackblitz-labs/bolt-maintainers  
-/Dockerfile @stackblitz-labs/bolt-maintainers
-/docker-compose.yaml @stackblitz-labs/bolt-maintainers
+/.env* @Mindinu-labs/bolt-maintainers
+/wrangler.toml @Mindinu-labs/bolt-maintainers
+/Dockerfile @Mindinu-labs/bolt-maintainers
+/docker-compose.yaml @Mindinu-labs/bolt-maintainers
 
 # Core application architecture - require maintainer review
-/app/lib/.server/ @stackblitz-labs/bolt-maintainers
-/app/routes/api.* @stackblitz-labs/bolt-maintainers
+/app/lib/.server/ @Mindinu-labs/bolt-maintainers
+/app/routes/api.* @Mindinu-labs/bolt-maintainers
 
 # Build and deployment configuration - require maintainer review
-/vite*.config.ts @stackblitz-labs/bolt-maintainers
-/tsconfig.json @stackblitz-labs/bolt-maintainers
-/uno.config.ts @stackblitz-labs/bolt-maintainers
-/eslint.config.mjs @stackblitz-labs/bolt-maintainers
+/vite*.config.ts @Mindinu-labs/bolt-maintainers
+/tsconfig.json @Mindinu-labs/bolt-maintainers
+/uno.config.ts @Mindinu-labs/bolt-maintainers
+/eslint.config.mjs @Mindinu-labs/bolt-maintainers
 
 # Documentation (optional review)
 /*.md
